@@ -1,0 +1,68 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delightful Eats</title>
+    <link rel="icon" href="images/chef.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="food-menu.html">Menu</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="Signup.html">SignUp</a></li>
+            </ul>
+            <h1 class="logo"><img src="images/chef.png" </h1>
+                <span id="sp">Delightful Eats</span>
+
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="contact-container container">
+            <div class="contact-img">
+                <img src="images/table.avif" alt="" />
+            </div>
+            <form class="foam">
+                <h1>Lets Reserve A Table</h1>
+                <label for="name"></label><br>
+                <input type="name" placeholder="Enter Name" required="">&nbsp;
+                <br><br>
+                <label for="date"></label>
+                <input type="date" id="date" required="" />
+                <br><br>
+                <input id="text" type="text" placeholder="Enter Email" required="" />
+                <br>
+                <label for="text"> </label><br>
+                <input type="text" placeholder="Enter No.of Guests" required="">&nbsp;
+                <br>
+                <label for="phone"> </label><br>
+                <input type="number" placeholder="Enter Phone No" required="">&nbsp;
+                <br>
+                <button class=" btn btn-primary" onclick="validate()">Reserve</button>
+                <button id="bt">Reserve</button>
+
+                <br>
+            </form>
+
+
+        </div>
+    </section>
+    <script src="java.js"></script>
+</body>
+
+</html>
