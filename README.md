@@ -1,1 +1,1 @@
-#Demo Link: https://humairwalait.github.io/Restaurant-website/
+#Demo Link: https://humairwalait.github.io/restaurant-website/
